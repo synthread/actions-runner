@@ -6,4 +6,5 @@ RUN sudo apt-get update -y \
         unzip \
         curl \
         wget \
+        git \
     && sudo rm -rf /var/lib/apt/lists/*
